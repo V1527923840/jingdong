@@ -1,0 +1,37 @@
+$backgroundImage:'background-image';
+$ImageUrl:'../assets/img/';
+
+.swipe{
+    margin: 0;
+}
+#menu{
+    // margin-top: 20px;
+    span{
+        display: inline-block;
+        margin: 0;
+        width: 50px;
+        height: 50px;;
+        background-repeat: round;
+    }
+}
+
+
+/* 导航样式-------start */
+.back-img{
+    #{$backgroundImage}:url('#{$ImageUrl}img.png');
+}
+.back-news{
+    #{$backgroundImage}:url('#{$ImageUrl}news.png')
+}
+.back-store{
+    #{$backgroundImage}:url('#{$ImageUrl}store.png')
+}
+.back-words{
+    #{$backgroundImage}:url('#{$ImageUrl}words.png')
+}
+.back-consulting{
+    #{$backgroundImage}:url('#{$ImageUrl}consulting.png')
+}
+.back-phone{
+    #{$backgroundImage}:url('#{$ImageUrl}phone.png')
+}

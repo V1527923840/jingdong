@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookstore [
+    <!ELEMENT bookstore(book*)>
+    <!ELEMENT book (title,author,price)>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT author (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+
+    <!ATTLIST book
+        publish(m) CDATA #REQUIRED
+    >
+    <!ELEMENT username "张三"> 
+]>

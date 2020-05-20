@@ -1,0 +1,32 @@
+.imgtext{
+    background-color: rgb(235, 238, 245);
+}
+.photo-list{
+    margin-top: 40px;
+    width: 100vw;
+    li{ 
+        position: absolute;
+        width: 50vw;
+        border-radius: 5px;
+        padding: 5px 0;
+        img{
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            width: 45vw;
+            margin: 0 2.5vw;
+        };
+        p{
+            width: 45vw;
+            text-indent: 2.5vw;
+            font-family: Sans-serif;
+            font-size: 14px;
+            font-weight: bolder;
+            background-color: white;
+            margin: auto;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            padding: 5px 0;
+        }
+        
+    }
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookstore SYSTEM "demo.dtd">
+
+<bookstore>
+    <book publish="v">
+        <title>金瓶梅</title>
+        <author>张三</author>
+        <price>￥5</price>
+    </book>
+    <book publish="v">
+        <title>三国演义</title>
+        <author>罗贯中</author>
+        <price>￥6</price>
+    </book>
+    <book publish="v">
+        <title>红楼梦</title>
+        <author>曹雪芹</author>
+        <price>￥6</price>
+    </book>
+    <book publish="v">
+        <title>水浒传</title>
+        <author>施耐庵</author>
+        <price>￥6</price>
+    </book>
+    <book publish="v">
+        <title>西游记</title>
+        <author>吴承恩</author>
+        <price>￥6</price>
+    </book>
+</bookstore>

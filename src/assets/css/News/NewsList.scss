@@ -1,0 +1,38 @@
+$Width:100vw;
+
+.newlist{
+    width: #{$Width};
+    margin-top: 40px;
+    li{
+        height: 5rem;
+        width: #{$Width};
+        
+    };
+    img{
+        width: 4rem;
+        height: 4rem;
+        margin: 0.5rem;
+    }
+    a{
+        width: #{$Width};
+        display: flex;
+    }
+}
+.concent{
+    width: #{$Width};
+    margin-right: 10px;
+    h4{
+        margin-top: 0.5rem;;
+        height: 2.8rem;
+        overflow: hidden;
+    }
+    div{
+        height: 1.7rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    p{
+        font-size: 13px;
+        color: skyblue;
+    }
+}

@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+h4{
+    margin: 0;
+}
+.tmpl{
+    margin-bottom: 55px;
+}
+.content{
+    margin-top: 40px;
+}

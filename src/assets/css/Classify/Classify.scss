@@ -1,0 +1,18 @@
+.classify{ 
+    width: 100%;
+    display: flex;
+    margin-top: 41px;
+    .classify_content{
+        // height: 100%;
+        .van-sidebar{
+            height: 100%;
+        }
+    }
+    .grid_content{
+        overflow: hidden;
+    }
+}
+//隐藏滚动条
+::-webkit-scrollbar{
+    width: 0 !important;height: 0;
+}
